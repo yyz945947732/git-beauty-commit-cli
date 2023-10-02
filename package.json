@@ -1,0 +1,48 @@
+{
+  "name": "git-beauty-commit-cli",
+  "version": "1.0.0",
+  "description": "git commit with beautiful massage",
+  "homepage": "https://github.com/yyz945947732/git-beauty-commit-cli",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "lint": "biome check --apply-unsafe ./lib && biome format --write ./lib"
+  },
+  "bin": {
+    "bcommit": "./bin/index.js"
+  },
+  "keywords": [
+    "git-commit",
+    "git-commit-massage",
+    "git-emoji-commit",
+    "git-emoji",
+    "git",
+    "cli"
+  ],
+  "type": "module",
+  "author": "yyz945947732 <945947732@qq.com>",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/yyz945947732/git-beauty-commit-cli/issues",
+    "email": "945947732@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyz945947732/git-beauty-commit-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.1.1",
+    "git-beauty-commit": "^1.0.1",
+    "update-notifier": "^6.0.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
+    "@types/fs-extra": "^11.0.1"
+  }
+}
