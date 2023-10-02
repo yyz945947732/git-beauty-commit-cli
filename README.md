@@ -42,7 +42,7 @@ $ bcommit --help
 ## Workflow
 
 - \$`git add .`
-- \$`bcommit "YOUR COMMIT MESSAGE"` to make a commit
+- \$`bcommit -m "YOUR COMMIT MESSAGE"` to make a commit
 - \$`git push`
 
 ## Emoji
